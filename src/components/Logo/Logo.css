@@ -1,0 +1,28 @@
+.logo {
+  max-width: fit-content;
+  margin: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  font-size: 30px;
+  color: #000;
+
+  transition: 300ms ease;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 25px;
+    max-width: 200px;
+  }
+}
+
+.logo:hover {
+  color: #ff9c08;
+  transform: translate3d(0px, -3px, 0.01px);
+}
+
+.logo_active {
+  color: #ff9c08;
+}
