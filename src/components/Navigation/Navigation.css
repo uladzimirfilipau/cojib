@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  position: relative;
+  transition: 300ms ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    gap: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000;
+
+  transition: 300ms ease;
+}
+
+.nav__link:hover {
+  color: #ff9c08;
+  transform: translate3d(0px, -3px, 0.01px);
+}
+
+.nav__link_active {
+  color: #ff9c08;
+}
