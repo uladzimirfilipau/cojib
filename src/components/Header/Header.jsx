@@ -17,8 +17,7 @@ function Header({ handleOpenMenu }) {
   return (
     <header className='header'>
       <Logo />
-      {showLinks && <Navigation />}
-      {!showLinks && <BurgerButton handleOpenMenu={handleOpenMenu} />}
+      {showLinks ? <Navigation /> : <BurgerButton handleOpenMenu={handleOpenMenu} />}
     </header>
   );
 }
