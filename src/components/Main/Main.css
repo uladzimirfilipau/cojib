@@ -1,0 +1,9 @@
+.main {
+  width: 100%;
+  max-width: 1440px;
+  padding-top: 90px;
+  box-sizing: border-box;
+
+  display: grid;
+  justify-items: center;
+}
