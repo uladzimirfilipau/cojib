@@ -9,9 +9,18 @@ import cojibImage from '../images/cojib-image.jpg';
 import cojibImage2 from '../images/cojib-image2.jpg';
 import cojibImage3 from '../images/cojib-image3.jpg';
 
-import Ollin from '../images/partners/ollin.png';
+import Davines from '../images/partners/davines.png';
+import Redken from '../images/partners/Redken.png';
 import Revlon from '../images/partners/Revlon.png';
-import Schwarzkopf from '../images/partners/Schwarzkopf.png';
+import Kerastase from '../images/partners/Kerastase.png';
+import Kydra from '../images/partners/Kydra.png';
+import Loreal from '../images/partners/loreal.png';
+import Matrix from '../images/partners/MARTIX.png';
+import Olaplex from '../images/partners/olaplex.png';
+import Kaypro from '../images/partners/Kaypro.png';
+import Lebel from '../images/partners/lebel.png';
+import Wella from '../images/partners/Wella.png';
+import pH from '../images/partners/pH.png';
 
 import telegramIcon from '../images/icon-telegram.png';
 import whatsAppIcon from '../images/icon-whatsapp.png';
@@ -26,10 +35,10 @@ export const servicelinks = [
 ];
 
 export const blogLinks = [
-  { name: 'Про стрижки', link: '/cut-about' },
-  { name: 'Про окрашивания', link: '/сoloring-about' },
-  { name: 'Про укладки', link: '/styling-about' },
-  { name: 'Про уходы', link: '/сare-about' },
+  { name: 'Про стрижки', link: '/blog' },
+  { name: 'Про окрашивания', link: '/blog' },
+  { name: 'Про укладки', link: '/blog' },
+  { name: 'Про уходы', link: '/blog' },
 ];
 
 export const tableCellsData = [
@@ -41,52 +50,64 @@ export const tableCellsData = [
 
 export const dignityList = [
   {
-    ID: '1',
-    IMAGE: houseImage,
-    IMG_ALT: 'Индивидуальный подход',
-    TITLE: 'Индивидуальный подход',
-    TEXT: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
+    id: '1',
+    image: houseImage,
+    alt: 'Индивидуальный подход',
+    title: 'Индивидуальный подход',
+    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
   tempus hac.`,
+    category: 'Стрижка',
+    link: '/cut-price',
   },
   {
-    ID: '2',
-    IMAGE: loveImage,
-    IMG_ALT: 'Профессиональные инструменты',
-    TITLE: 'Профессиональные инструменты',
-    TEXT: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
+    id: '2',
+    image: loveImage,
+    alt: 'Профессиональные инструменты',
+    title: 'Профессиональные инструменты',
+    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
   tempus hac.`,
+    category: 'Стрижка',
+    link: '/cut-price',
   },
   {
-    ID: '3',
-    IMAGE: foodImage,
-    IMG_ALT: 'Профессиональная косметика',
-    TITLE: 'Профессиональная косметика',
-    TEXT: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
+    id: '3',
+    image: foodImage,
+    alt: 'Профессиональная косметика',
+    title: 'Профессиональная косметика',
+    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
   tempus hac.`,
+    category: 'Окрашивание',
+    link: '/сolor-price',
   },
   {
-    ID: '4',
-    IMAGE: helpImage,
-    IMG_ALT: 'Гигиена',
-    TITLE: 'Гигиена',
-    TEXT: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
+    id: '4',
+    image: helpImage,
+    alt: 'Гигиена',
+    title: 'Гигиена',
+    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
   tempus hac.`,
+    category: 'Окрашивание',
+    link: '/сolor-price',
   },
   {
-    ID: '5',
-    IMAGE: educationImage,
-    IMG_ALT: 'Образование',
-    TITLE: 'Образование',
-    TEXT: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
+    id: '5',
+    image: educationImage,
+    alt: 'Образование',
+    title: 'Образование',
+    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
   tempus hac.`,
+    category: 'Укладка',
+    link: '/сolor-price',
   },
   {
-    ID: '6',
-    IMAGE: healthImage,
-    IMG_ALT: 'Опыт',
-    TITLE: 'Опыт',
-    TEXT: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
+    id: '6',
+    image: healthImage,
+    alt: 'Опыт',
+    title: 'Опыт',
+    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
   tempus hac.`,
+    category: 'Уход',
+    link: '/сolor-price',
   },
 ];
 
@@ -122,9 +143,18 @@ export const cards = [
 ];
 
 export const partners = [
-  { title: 'Ollin', image: Ollin },
+  { title: 'Davines', image: Davines },
+  { title: 'Kaypro', image: Kaypro },
+  { title: 'Kerastase', image: Kerastase },
+  { title: 'Kydra', image: Kydra },
+  { title: 'Lebel', image: Lebel },
+  { title: 'Loreal', image: Loreal },
+  { title: 'Matrix', image: Matrix },
+  { title: 'Olaplex', image: Olaplex },
+  { title: 'pH', image: pH },
+  { title: 'Redken', image: Redken },
   { title: 'Revlon', image: Revlon },
-  { title: 'Schwarzkopf', image: Schwarzkopf },
+  { title: 'Wella', image: Wella },
 ];
 
 export const ASKED_QUESTIONS = [
