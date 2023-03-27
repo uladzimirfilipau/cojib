@@ -54,60 +54,42 @@ export const dignityList = [
     image: houseImage,
     alt: 'Индивидуальный подход',
     title: 'Индивидуальный подход',
-    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
-  tempus hac.`,
-    category: 'Стрижка',
-    link: '/cut-price',
+    text: `Текст текст текст текст текст текст текст текст текст текст текст текст текст`,
   },
   {
     id: '2',
     image: loveImage,
     alt: 'Профессиональные инструменты',
     title: 'Профессиональные инструменты',
-    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
-  tempus hac.`,
-    category: 'Стрижка',
-    link: '/cut-price',
+    text: `Текст текст текст текст текст текст текст текст текст текст текст текст текст`,
   },
   {
     id: '3',
     image: foodImage,
     alt: 'Профессиональная косметика',
     title: 'Профессиональная косметика',
-    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
-  tempus hac.`,
-    category: 'Окрашивание',
-    link: '/сolor-price',
+    text: `Текст текст текст текст текст текст текст текст текст текст текст текст текст`,
   },
   {
     id: '4',
     image: helpImage,
     alt: 'Гигиена',
     title: 'Гигиена',
-    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
-  tempus hac.`,
-    category: 'Окрашивание',
-    link: '/сolor-price',
+    text: `Текст текст текст текст текст текст текст текст текст текст текст текст текст`,
   },
   {
     id: '5',
     image: educationImage,
     alt: 'Образование',
     title: 'Образование',
-    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
-  tempus hac.`,
-    category: 'Укладка',
-    link: '/сolor-price',
+    text: `Текст текст текст текст текст текст текст текст текст текст текст текст текст`,
   },
   {
     id: '6',
     image: healthImage,
     alt: 'Опыт',
     title: 'Опыт',
-    text: `Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar dolor elementum
-  tempus hac.`,
-    category: 'Уход',
-    link: '/сolor-price',
+    text: `Текст текст текст текст текст текст текст текст текст текст текст текст текст`,
   },
 ];
 
@@ -157,6 +139,80 @@ export const partners = [
   { title: 'Wella', image: Wella },
 ];
 
+export const articlesList = [
+  {
+    id: '1',
+    image: houseImage,
+    alt: 'Индивидуальный подход',
+    title: 'Индивидуальный подход',
+    text: `Стрижка волос`,
+    category: 'Стрижка',
+    link: '/cut-price',
+  },
+  {
+    id: '2',
+    image: loveImage,
+    alt: 'Профессиональные инструменты',
+    title: 'Профессиональные инструменты',
+    text: `Стрижка волос`,
+    category: 'Стрижка',
+    link: '/cut-price',
+  },
+  {
+    id: '3',
+    image: foodImage,
+    alt: 'Профессиональная косметика',
+    title: 'Профессиональная косметика',
+    text: `Окрашивание волос`,
+    category: 'Окрашивание',
+    link: '/сolor-price',
+  },
+  {
+    id: '4',
+    image: helpImage,
+    alt: 'Гигиена',
+    title: 'Гигиена',
+    text: `Окрашивание волос`,
+    category: 'Окрашивание',
+    link: '/сolor-price',
+  },
+  {
+    id: '5',
+    image: educationImage,
+    alt: 'Образование',
+    title: 'Образование',
+    text: `Укладка волос`,
+    category: 'Укладка',
+    link: '/сolor-price',
+  },
+  {
+    id: '6',
+    image: healthImage,
+    alt: 'Опыт',
+    title: 'Опыт',
+    text: `Уход за волосами`,
+    category: 'Уход',
+    link: '/сolor-price',
+  },
+  {
+    id: '7',
+    image: healthImage,
+    alt: 'Опыт',
+    title: 'Опыт',
+    text: `Уход за волосами`,
+    category: 'Уход',
+    link: '/сolor-price',
+  },
+  {
+    id: '8',
+    image: educationImage,
+    alt: 'Образование',
+    title: 'Образование',
+    text: `Укладка волос`,
+    category: 'Укладка',
+    link: '/сolor-price',
+  },
+];
 export const ASKED_QUESTIONS = [
   {
     id: '01',
