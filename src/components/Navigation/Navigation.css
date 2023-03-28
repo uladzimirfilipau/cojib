@@ -1,20 +1,21 @@
 .nav {
   display: flex;
   align-items: center;
-  gap: 46px;
+  gap: 50px;
   position: relative;
   transition: 300ms ease;
 }
 
 @media screen and (max-width: 1024px) {
   .nav {
-    gap: 26px;
+    gap: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .nav {
     flex-direction: column;
+    gap: 40px;
   }
 }
 
@@ -27,6 +28,12 @@
   color: #000;
 
   transition: 300ms ease;
+}
+@media screen and (max-width: 768px) {
+  .nav__link {
+    font-size: 22px;
+    line-height: 26px;
+  }
 }
 
 .nav__link:hover {
