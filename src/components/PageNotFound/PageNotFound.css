@@ -1,0 +1,97 @@
+.notfound {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 180px;
+}
+
+@media screen and (max-width: 1024px) {
+  .notfound {
+    padding: 100px 30px 130px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .notfound {
+    padding: 50px 30px 75px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .notfound {
+    padding: 50px 10px 75px;
+  }
+}
+
+.notfound__title {
+  margin: 0 0 18px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1.2em;
+  text-align: center;
+  color: #ff9c08;
+}
+
+@media screen and (max-width: 768px) {
+  .notfound__title {
+    font-size: 75px;
+  }
+}
+
+.notfound__subtitle {
+  margin: 0 0 24px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 58px;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .notfound__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.notfound__text {
+  margin: 0 0 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6e6e6e;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .notfound__text {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+
+.notfound__link {
+  display: block;
+  text-decoration: none;
+  padding: 26px 38px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #ff9c08;
+
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #fff;
+  text-align: center;
+
+  transition: 300ms ease;
+}
+
+.notfound__link:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #f08200;
+  transform: translate3d(0px, -3px, 0.01px);
+}
