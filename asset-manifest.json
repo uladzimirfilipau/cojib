@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cojib/static/css/main.c290da6c.css",
-    "main.js": "/cojib/static/js/main.3b792ad4.js",
+    "main.css": "/cojib/static/css/main.8782c100.css",
+    "main.js": "/cojib/static/js/main.e0ffde1f.js",
     "static/media/cojib-image3.jpg": "/cojib/static/media/cojib-image3.13c2ada4689cd8a5d2ad.jpg",
     "static/media/cojib-image2.jpg": "/cojib/static/media/cojib-image2.27e7264c6cbe2ed4a0b9.jpg",
     "static/media/cojib-image.jpg": "/cojib/static/media/cojib-image.8cd28679ee8664281b83.jpg",
@@ -27,11 +27,11 @@
     "index.html": "/cojib/index.html",
     "static/media/help-love.svg": "/cojib/static/media/help-love.962377de6dac584e21832f9ee5ca5190.svg",
     "static/media/list-style-icon.svg": "/cojib/static/media/list-style-icon.5b881add3738b58e54d0.svg",
-    "main.c290da6c.css.map": "/cojib/static/css/main.c290da6c.css.map",
-    "main.3b792ad4.js.map": "/cojib/static/js/main.3b792ad4.js.map"
+    "main.8782c100.css.map": "/cojib/static/css/main.8782c100.css.map",
+    "main.e0ffde1f.js.map": "/cojib/static/js/main.e0ffde1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c290da6c.css",
-    "static/js/main.3b792ad4.js"
+    "static/css/main.8782c100.css",
+    "static/js/main.e0ffde1f.js"
   ]
 }
