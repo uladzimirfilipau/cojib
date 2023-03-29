@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/cojib/static/css/main.662c2298.css",
+    "main.js": "/cojib/static/js/main.cf160f04.js",
+    "static/media/cojib-image3.jpg": "/cojib/static/media/cojib-image3.13c2ada4689cd8a5d2ad.jpg",
+    "static/media/cojib-image2.jpg": "/cojib/static/media/cojib-image2.27e7264c6cbe2ed4a0b9.jpg",
+    "static/media/cojib-image.jpg": "/cojib/static/media/cojib-image.8cd28679ee8664281b83.jpg",
+    "static/media/lebel.png": "/cojib/static/media/lebel.b27c7f7328425f7d4366.png",
+    "static/media/Wella.png": "/cojib/static/media/Wella.6a467711aa589c20877a.png",
+    "static/media/Kydra.png": "/cojib/static/media/Kydra.487d105ab3ebb1a51f43.png",
+    "static/media/loreal.png": "/cojib/static/media/loreal.30d1d10db9aab2550a9b.png",
+    "static/media/davines.png": "/cojib/static/media/davines.c32f79e25174ae83b9dc.png",
+    "static/media/icon-whatsapp.png": "/cojib/static/media/icon-whatsapp.45c8bc341a298cfdc2c5.png",
+    "static/media/roboto.woff": "/cojib/static/media/roboto.59d18e163bfcd0607572.woff",
+    "static/media/Kerastase.png": "/cojib/static/media/Kerastase.64c4e0b983cb15402980.png",
+    "static/media/Redken.png": "/cojib/static/media/Redken.58937e234994347c1491.png",
+    "static/media/icon-telegram.png": "/cojib/static/media/icon-telegram.f1150caf896a737fd506.png",
+    "static/media/olaplex.png": "/cojib/static/media/olaplex.4372a1bb6752289f134a.png",
+    "static/media/Kaypro.png": "/cojib/static/media/Kaypro.bb72416dacd0ffa11e6b.png",
+    "static/media/MARTIX.png": "/cojib/static/media/MARTIX.8399cc26763633103454.png",
+    "static/media/pH.png": "/cojib/static/media/pH.f945758dfbff6a4a5766.png",
+    "static/media/help-food.svg": "/cojib/static/media/help-food.d089443e488e58b981067dd3ee781307.svg",
+    "static/media/help-education.svg": "/cojib/static/media/help-education.fe2559890df8f307e194b1908da8ed03.svg",
+    "static/media/help-help.svg": "/cojib/static/media/help-help.ce9cb29b4995f75c1c60586cb0ec80f9.svg",
+    "static/media/help-house.svg": "/cojib/static/media/help-house.59e7b6ad7e329bb0593df3aa573b8416.svg",
+    "static/media/help-health.svg": "/cojib/static/media/help-health.521136c732ee7947491bbaa01f1c95bc.svg",
+    "index.html": "/cojib/index.html",
+    "static/media/help-love.svg": "/cojib/static/media/help-love.962377de6dac584e21832f9ee5ca5190.svg",
+    "static/media/list-style-icon.svg": "/cojib/static/media/list-style-icon.5b881add3738b58e54d0.svg",
+    "main.662c2298.css.map": "/cojib/static/css/main.662c2298.css.map",
+    "main.cf160f04.js.map": "/cojib/static/js/main.cf160f04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.662c2298.css",
+    "static/js/main.cf160f04.js"
+  ]
+}
