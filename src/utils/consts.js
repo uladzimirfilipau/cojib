@@ -151,7 +151,7 @@ export const articlesList = [
   },
   {
     id: '2',
-    image: loveImage,
+    image: houseImage,
     alt: 'Профессиональные инструменты',
     title: 'Профессиональные инструменты',
     text: `Стрижка волос`,
@@ -160,7 +160,7 @@ export const articlesList = [
   },
   {
     id: '3',
-    image: foodImage,
+    image: loveImage,
     alt: 'Профессиональная косметика',
     title: 'Профессиональная косметика',
     text: `Окрашивание волос`,
@@ -169,7 +169,7 @@ export const articlesList = [
   },
   {
     id: '4',
-    image: helpImage,
+    image: loveImage,
     alt: 'Гигиена',
     title: 'Гигиена',
     text: `Окрашивание волос`,
@@ -183,7 +183,7 @@ export const articlesList = [
     title: 'Образование',
     text: `Укладка волос`,
     category: 'Укладка',
-    link: '/сolor-price',
+    link: '/style-price',
   },
   {
     id: '6',
@@ -192,7 +192,7 @@ export const articlesList = [
     title: 'Опыт',
     text: `Уход за волосами`,
     category: 'Уход',
-    link: '/сolor-price',
+    link: '/сare-price',
   },
   {
     id: '7',
@@ -201,7 +201,7 @@ export const articlesList = [
     title: 'Опыт',
     text: `Уход за волосами`,
     category: 'Уход',
-    link: '/сolor-price',
+    link: '/сare-price',
   },
   {
     id: '8',
@@ -210,7 +210,7 @@ export const articlesList = [
     title: 'Образование',
     text: `Укладка волос`,
     category: 'Укладка',
-    link: '/сolor-price',
+    link: '/style-price',
   },
 ];
 export const ASKED_QUESTIONS = [
@@ -252,6 +252,6 @@ export const ASKED_QUESTIONS = [
 ];
 
 export const socialLinks = [
-  { id: 1, title: 'Telegram', link: 't.me/cojib/', img: telegramIcon },
-  { id: 2, title: 'WhatsApp', link: 'wa.me/message/WXNH2YKBRQA4I1', img: whatsAppIcon },
+  { id: 1, title: 'Telegram', link: 'https://t.me/cojib/', img: telegramIcon },
+  { id: 2, title: 'WhatsApp', link: 'https://wa.me/message/WXNH2YKBRQA4I1', img: whatsAppIcon },
 ];
