@@ -1,6 +1,6 @@
 .partners {
   width: 100%;
-  padding: 100px 110px;
+  padding: 100px;
   box-sizing: border-box;
 
   display: grid;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1280px) {
   .partners {
-    padding: 75px 50px;
+    padding: 75px;
   }
 }
 
@@ -30,7 +30,7 @@
 @media screen and (max-width: 640px) {
   .partners__title {
     margin: 0 0 10px;
-    padding: 0 50px;
+    padding: 0 20px;
   }
 }
 
