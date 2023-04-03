@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer';
 
 import PopupMenu from '../PopupMenu/PopupMenu';
 
-function App() {
+export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleOpenMenu = () => setIsMenuOpen(true);
   const handleCloseMenu = () => setIsMenuOpen(false);
@@ -22,5 +22,3 @@ function App() {
     </>
   );
 }
-
-export default App;

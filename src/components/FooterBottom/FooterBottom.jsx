@@ -1,6 +1,6 @@
 import './FooterBottom.css';
 
-function FooterBottom() {
+export default function FooterBottom() {
   const date = new Date().getFullYear();
 
   return (
@@ -9,5 +9,3 @@ function FooterBottom() {
     </section>
   );
 }
-
-export default FooterBottom;

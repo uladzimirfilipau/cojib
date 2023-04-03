@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import leadImage from '../../images/cojib-image.jpg';
-import { servicelinks } from '../../utils/consts';
+import { serviceList } from '../../utils/consts';
 import './Lead.css';
 
-function Lead() {
-  const listItems = servicelinks.map(({ id, title, link }) => (
+export default function Lead() {
+  const listItems = serviceList.map(({ id, title, link }) => (
     <li key={id} className='lead__list-item'>
       <NavLink to={link} className='lead__link'>
         {title}
@@ -26,5 +26,3 @@ function Lead() {
     </section>
   );
 }
-
-export default Lead;

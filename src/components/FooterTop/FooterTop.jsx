@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import { servicelinks, blogLinks, socialLinks } from '../../utils/consts';
+import { serviceList, blogLinks, socialLinks } from '../../utils/consts';
 import './FooterTop.css';
 
-function FooterTop() {
-  const footerLinks = servicelinks.map(({ title, link }) => (
+export default function FooterTop() {
+  const footerLinks = serviceList.map(({ title, link }) => (
     <Link key={title} to={link} className='footer__link'>
       {title}
     </Link>
@@ -57,5 +57,3 @@ function FooterTop() {
     </section>
   );
 }
-
-export default FooterTop;

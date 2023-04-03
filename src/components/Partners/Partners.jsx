@@ -1,7 +1,7 @@
 import './Partners.css';
 import { partners } from '../../utils/consts';
 
-function Partners() {
+export default function Partners() {
   const patnersItems = partners.map(({ image, title }) => (
     <li key={title} className='partners__list-item'>
       <img src={image} alt={title} className='partners__image' />
@@ -15,5 +15,3 @@ function Partners() {
     </section>
   );
 }
-
-export default Partners;

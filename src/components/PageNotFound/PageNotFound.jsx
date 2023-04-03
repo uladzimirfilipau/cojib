@@ -1,7 +1,7 @@
 import './PageNotFound.css';
 import { NavLink } from 'react-router-dom';
 
-function PageNotFound() {
+export default function PageNotFound() {
   return (
     <section className='notfound'>
       <h1 className='notfound__title'>404</h1>
@@ -15,5 +15,3 @@ function PageNotFound() {
     </section>
   );
 }
-
-export default PageNotFound;
