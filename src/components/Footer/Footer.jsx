@@ -2,7 +2,7 @@ import './Footer.css';
 import FooterTop from '../FooterTop/FooterTop';
 import FooterBottom from '../FooterBottom/FooterBottom';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer className='footer'>
       <FooterTop />
@@ -10,5 +10,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;
