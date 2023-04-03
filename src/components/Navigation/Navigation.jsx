@@ -1,7 +1,17 @@
+import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useWindowWidth } from '../../hooks/useWindowSize';
+import { MEDIUM_SCREEN } from '../../utils/consts';
 import './Navigation.css';
 
-function Navigation({ onClose, isMobile }) {
+export default function Navigation({ onClose }) {
+  const width = useWindowWidth();
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    width <= MEDIUM_SCREEN ? setIsMobile(true) : setIsMobile(false);
+  }, [width]);
+
   return (
     <nav className='nav'>
       {isMobile && (
@@ -45,5 +55,3 @@ function Navigation({ onClose, isMobile }) {
     </nav>
   );
 }
-
-export default Navigation;
