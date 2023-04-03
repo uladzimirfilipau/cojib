@@ -6,13 +6,13 @@
   border-bottom: 1px solid #f0ece8;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
 @media screen and (max-width: 1440px) {
   .footer__top {
     gap: 100px;
     flex-wrap: wrap;
-    justify-content: center;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -30,7 +30,8 @@
 }
 
 .footer__description {
-  min-width: 290px;
+  width: 100%;
+  max-width: 300px;
   display: grid;
   align-self: flex-start;
   justify-items: center;
@@ -64,7 +65,8 @@
 }
 
 .footer__links {
-  min-width: 290px;
+  width: 100%;
+  max-width: 300px;
   margin: 0;
   padding: 0;
   list-style-type: none;
