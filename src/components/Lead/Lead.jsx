@@ -19,7 +19,7 @@ export default function Lead() {
 
       <article className='lead__article'>
         <h1 className='lead__title'>Парикмахер-стилист</h1>
-        <p className='lead__title'>с&nbsp;15-летним опытом&nbsp;работы</p>
+        <p className='lead__text'>с&nbsp;15-летним опытом&nbsp;работы</p>
 
         <ul className='lead__list'>{listItems}</ul>
       </article>

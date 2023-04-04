@@ -1,29 +1,21 @@
-import { useEffect, useState } from 'react';
 import './PopupMenu.css';
-import CloseButton from '../CloseButton/CloseButton';
+
 import Navigation from '../Navigation/Navigation';
-import { useWindowWidth } from '../../hooks/useWindowSize';
-import { MEDIUM_SCREEN } from '../../utils/consts';
 
-function PopupMenu({ isOpen, onClose }) {
-  const width = useWindowWidth();
-  const [isMobile, setIsMobile] = useState(false);
-  const popupMenuClassName = `popup-menu ${isOpen && 'popup-menu_opened'}`;
-
-  useEffect(() => {
-    width <= MEDIUM_SCREEN ? setIsMobile(true) : setIsMobile(false);
-  }, [width]);
-
+export default function PopupMenu({ isOpen, onClose }) {
   return (
     <>
-      {isMobile && (
-        <section className={popupMenuClassName}>
-          <CloseButton onClose={onClose} />
-          <Navigation onClose={onClose} isMobile={isMobile} />
+      {isOpen && (
+        <section className='popup-menu'>
+          <button
+            type='button'
+            aria-label='Закрыть меню'
+            className='close-button'
+            onClick={onClose}
+          />
+          <Navigation onClose={onClose} />
         </section>
       )}
     </>
   );
 }
-
-export default PopupMenu;
