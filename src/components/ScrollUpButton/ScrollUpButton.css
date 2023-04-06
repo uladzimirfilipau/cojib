@@ -1,0 +1,49 @@
+.scrollup-button {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 100px;
+  bottom: 50px;
+  padding: 0;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 9%, 0.9);
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+  font-size: 35px;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 300ms ease;
+  z-index: 100;
+}
+@media screen and (max-width: 1440px) {
+  .scrollup-button {
+    right: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .scrollup-button {
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    bottom: 30px;
+  }
+}
+
+.scrollup-button::after {
+  position: absolute;
+  width: 40px;
+  height: 44px;
+  content: '\2794';
+  transform: rotate(-90deg);
+}
+
+.scrollup-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
