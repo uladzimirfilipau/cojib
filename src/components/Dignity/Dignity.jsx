@@ -1,7 +1,7 @@
 import './Dignity.css';
 import { dignityList } from '../../utils/consts';
 
-function Dignity() {
+export default function Dignity() {
   const listItems = dignityList.map(({ id, title, text }) => (
     <li key={id} className='dignity__list-item'>
       <h3 className='dignity__list-title'>{title}</h3>
@@ -16,5 +16,3 @@ function Dignity() {
     </section>
   );
 }
-
-export default Dignity;
