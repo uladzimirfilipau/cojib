@@ -2,7 +2,7 @@ import { tableCellsData } from '../../utils/consts';
 import './AboutMe.css';
 import cojibImage from '../../images/cojib-image.jpg';
 
-function AboutMe() {
+export default function AboutMe() {
   const tableCells = tableCellsData.map(({ title, letter, text }) => (
     <li key={text} className='aboutme__table-cell'>
       <p className='aboutme__cell-title'>
@@ -19,7 +19,7 @@ function AboutMe() {
 
       <article className='aboutme__article'>
         <figure className='aboutme__figure'>
-          <h2 className='aboutme__title'>Заголовок</h2>
+          <h2 className='aboutme__title'>Обо мне</h2>
 
           <figcaption className='aboutme__figcaption'>
             <p className='aboutme__text'>
@@ -60,5 +60,3 @@ function AboutMe() {
     </section>
   );
 }
-
-export default AboutMe;
