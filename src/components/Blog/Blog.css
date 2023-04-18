@@ -1,0 +1,41 @@
+.blog {
+  width: 100%;
+  max-width: 1440px;
+  padding: 100px;
+  box-sizing: border-box;
+
+  display: grid;
+  justify-items: center;
+  gap: 25px;
+
+  color: #000;
+}
+@media screen and (max-width: 1280px) {
+  .blog {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .blog {
+    padding: 50px 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .blog {
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .blog {
+    padding: 50px 10px;
+  }
+}
+
+.blog__input {
+  max-width: 320px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #f0ece8;
+  box-shadow: 0 2px 12px 0 rgb(43 43 43 / 6%);
+}
