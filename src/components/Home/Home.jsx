@@ -2,19 +2,17 @@ import './Home.css';
 import Lead from '../Lead/Lead';
 import AboutMe from '../AboutMe/AboutMe';
 import Dignity from '../Dignity/Dignity';
-import ImageSlider from '../ImageSlider/ImageSlider';
+import Carousel from '../Carousel/Carousel';
 import Partners from '../Partners/Partners';
 
-function Home() {
+export default function Home() {
   return (
     <>
       <Lead />
       <AboutMe />
       <Dignity />
-      <ImageSlider />
+      <Carousel />
       <Partners />
     </>
   );
 }
-
-export default Home;
