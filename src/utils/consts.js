@@ -25,7 +25,13 @@ import pH from '../images/partners/pH.png';
 import telegramIcon from '../images/icon-telegram.png';
 import whatsAppIcon from '../images/icon-whatsapp.png';
 
+export const SMALL_SCREEN = 640;
 export const MEDIUM_SCREEN = 768;
+export const FULL_SCREEN = 1024;
+
+export const ONE_SLIDE = 1;
+export const TWO_SLIDES = 2;
+export const FOUR_SLIDES = 4;
 
 export const serviceList = [
   {
@@ -281,7 +287,7 @@ export const articlesList = [
 export const ASKED_QUESTIONS = [
   {
     id: '01',
-    subtitle: 'Почему волосы растут на груди?',
+    subtitle: 'Почему волосы слабые и плохо растут?',
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus
     euismod dictum egestas orci netus feugiat ut egestas ut sagittis tincidunt phasellus
     elit etiam cursus orci in. Id sed montes.`,
@@ -295,14 +301,14 @@ export const ASKED_QUESTIONS = [
   },
   {
     id: '03',
-    subtitle: 'Как брить волосы между булок?',
+    subtitle: 'Как подготовить волосы перед окрашиванием?',
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus
     euismod dictum egestas orci netus feugiat ut egestas ut sagittis tincidunt phasellus
     elit etiam cursus orci in. Id sed montes.`,
   },
   {
     id: '04',
-    subtitle: 'Зачем человеку волосы в подмышках?',
+    subtitle: 'Зачем нужно стричь волосы?',
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus
     euismod dictum egestas orci netus feugiat ut egestas ut sagittis tincidunt phasellus
     elit etiam cursus orci in. Id sed montes.`,
