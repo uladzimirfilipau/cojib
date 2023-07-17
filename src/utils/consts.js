@@ -1,7 +1,5 @@
 import houseImage from '../images/help-house.svg';
 import loveImage from '../images/help-love.svg';
-import foodImage from '../images/help-food.svg';
-import helpImage from '../images/help-help.svg';
 import educationImage from '../images/help-education.svg';
 import healthImage from '../images/help-health.svg';
 
@@ -116,21 +114,18 @@ export const dignityList = [
   // },
   {
     id: '6',
-    image: healthImage,
     alt: 'Опыт',
     title: 'Опыт',
     text: `Более ${EXP_YEARS} лет практики. Глубокое понимание различных типов волос, их структуры и особенностей, а также различных техник стрижки, окрашивания и укладки.`,
   },
   {
     id: '1',
-    image: houseImage,
     alt: 'Индивидуальный подход',
     title: 'Индивидуальный подход',
     text: `Слушаю, понимаю и учитываю личные пожелания, чтобы создать прическу или укладку, которая подчеркнет индивидуальность, уверенность и красоту.`,
   },
   {
     id: '2',
-    image: loveImage,
     alt: 'Профессиональные инструменты',
     title: 'Профессиональные инструменты',
     text: `Использую профессиональные инструменты, которые помогают мне в достижении высококачественных результатов.`,
@@ -144,21 +139,18 @@ export const dignityList = [
   // },
   {
     id: '3',
-    image: foodImage,
     alt: 'Профессиональная косметика',
     title: 'Профессиональная косметика',
     text: `Использую проверенные мной и временем бренды: Ph laboratories, Roverhair, Lebel`,
   },
   {
     id: '7',
-    image: healthImage,
     alt: 'Комфортная атмосфера',
     title: 'Комфортная атмосфера',
     text: `В салоне красоты спокойная и расслабляющая обстановка, приятный интерьер и вежливый персонал.`,
   },
   {
     id: '8',
-    image: healthImage,
     alt: 'Расположение',
     title: 'Расположение',
     text: `В 300 метрах от метро Озёрная. Есть парковка`,
