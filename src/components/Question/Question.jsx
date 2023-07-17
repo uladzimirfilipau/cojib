@@ -20,7 +20,7 @@ export default function Question({ item }) {
         <span className={buttonTextClassName}>+</span>
       </button>
       <article className='questions__article'>
-        <h3 className='questions__subtitle'>{subtitle}</h3>
+        <h2 className='questions__subtitle'>{subtitle}</h2>
         {showText && <p className='questions__text'>{text}</p>}
       </article>
     </li>

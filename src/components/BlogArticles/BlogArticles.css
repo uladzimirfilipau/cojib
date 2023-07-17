@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: stretch;
+  justify-content: center;
   gap: 25px;
 }
 @media screen and (max-width: 1024px) {
@@ -18,10 +19,13 @@
 @media screen and (max-width: 768px) {
   .blog__list {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 }
 
 .blog__item {
+  width: 100%;
+  max-width: 500px;
   display: grid;
   justify-items: center;
   gap: 25px;
@@ -53,6 +57,7 @@
 .blog__item-button {
   display: block;
   width: 100%;
+  max-width: 300px;
   margin: 0;
   padding: 15px 30px;
   box-sizing: border-box;

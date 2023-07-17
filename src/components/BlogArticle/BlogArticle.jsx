@@ -1,7 +1,13 @@
 import './BlogArticle.css';
 
 export default function BlogArticle({ i }) {
-  const { image, title, articleText, articleList } = i;
+  const { image, title, articleText, articleList, articleTextTwo } = i;
+
+  const articleTextItems = articleText.map((item, index) => (
+    <p className='article__text' key={index}>
+      {item}
+    </p>
+  ));
 
   const articleListItems = articleList.map((item, index) => (
     <li className='article__item' key={index}>
@@ -15,8 +21,9 @@ export default function BlogArticle({ i }) {
       <h1 className='article__title'>{title}</h1>
 
       <article className='article__container'>
-        <p className='article__text'>{articleText}</p>
+        {articleTextItems}
         <ul className='article__list'>{articleListItems}</ul>
+        {articleTextTwo ? <p className='article__text'>{articleTextTwo}</p> : null}
       </article>
     </section>
   );
