@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cojib/static/css/main.fbb9c0fa.css",
-    "main.js": "/cojib/static/js/main.b0ce2179.js",
+    "main.css": "/cojib/static/css/main.feedb32b.css",
+    "main.js": "/cojib/static/js/main.271f17eb.js",
     "static/media/cojib-image3.jpg": "/cojib/static/media/cojib-image3.13c2ada4689cd8a5d2ad.jpg",
     "static/media/cojib-image2.jpg": "/cojib/static/media/cojib-image2.27e7264c6cbe2ed4a0b9.jpg",
     "static/media/cojib-image.jpg": "/cojib/static/media/cojib-image.8cd28679ee8664281b83.jpg",
@@ -19,19 +19,17 @@
     "static/media/Kaypro.png": "/cojib/static/media/Kaypro.bb72416dacd0ffa11e6b.png",
     "static/media/MARTIX.png": "/cojib/static/media/MARTIX.8399cc26763633103454.png",
     "static/media/pH.png": "/cojib/static/media/pH.f945758dfbff6a4a5766.png",
-    "static/media/help-food.svg": "/cojib/static/media/help-food.d089443e488e58b981067dd3ee781307.svg",
     "static/media/help-education.svg": "/cojib/static/media/help-education.fe2559890df8f307e194b1908da8ed03.svg",
-    "static/media/help-help.svg": "/cojib/static/media/help-help.ce9cb29b4995f75c1c60586cb0ec80f9.svg",
     "static/media/help-house.svg": "/cojib/static/media/help-house.59e7b6ad7e329bb0593df3aa573b8416.svg",
     "static/media/help-health.svg": "/cojib/static/media/help-health.521136c732ee7947491bbaa01f1c95bc.svg",
     "index.html": "/cojib/index.html",
     "static/media/help-love.svg": "/cojib/static/media/help-love.962377de6dac584e21832f9ee5ca5190.svg",
     "static/media/list-style-icon.svg": "/cojib/static/media/list-style-icon.5b881add3738b58e54d0.svg",
-    "main.fbb9c0fa.css.map": "/cojib/static/css/main.fbb9c0fa.css.map",
-    "main.b0ce2179.js.map": "/cojib/static/js/main.b0ce2179.js.map"
+    "main.feedb32b.css.map": "/cojib/static/css/main.feedb32b.css.map",
+    "main.271f17eb.js.map": "/cojib/static/js/main.271f17eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb9c0fa.css",
-    "static/js/main.b0ce2179.js"
+    "static/css/main.feedb32b.css",
+    "static/js/main.271f17eb.js"
   ]
 }
