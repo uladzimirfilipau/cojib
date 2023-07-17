@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import leadImage from '../../images/cojib-image.jpg';
-import { serviceList } from '../../utils/consts';
+import { EXP_YEARS, serviceList } from '../../utils/consts';
 import './Lead.css';
 
 export default function Lead() {
@@ -19,7 +19,7 @@ export default function Lead() {
 
       <article className='lead__article'>
         <h1 className='lead__title'>Парикмахер-стилист</h1>
-        <p className='lead__text'>с&nbsp;15-летним опытом&nbsp;работы</p>
+        <p className='lead__text'>с&nbsp;{EXP_YEARS}-летним опытом&nbsp;работы</p>
 
         <ul className='lead__list'>{listItems}</ul>
       </article>
