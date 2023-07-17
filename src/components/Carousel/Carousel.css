@@ -1,0 +1,143 @@
+.carousel {
+  width: 100%;
+  max-width: 1440px;
+  padding: 100px 0;
+  box-sizing: border-box;
+  background-color: #181818;
+  color: #fff;
+
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+}
+@media screen and (max-width: 1280px) {
+  .carousel {
+    padding: 75px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel {
+    padding: 50px 0 0;
+  }
+}
+
+.carousel__title {
+  margin: 0;
+  text-transform: uppercase;
+  justify-self: center;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.carousel__article {
+  padding: 0 50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .carousel__article {
+    padding: 0;
+    position: relative;
+  }
+}
+
+.carousel__container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+
+  width: 100%;
+  max-width: 1200px;
+  overflow-x: hidden;
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
+}
+/* @media screen and (max-width: 768px) {
+  .carousel__container {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+} */
+
+.carousel__item {
+  width: 25%;
+  flex-shrink: 0;
+  /* flex-grow: 1; */
+  display: flex;
+
+  transition: all 250ms linear;
+}
+@media screen and (max-width: 1024px) {
+  .carousel__item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel__item {
+    width: 100%;
+  }
+}
+
+.carousel__content {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
+
+  -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+  scrollbar-width: none; /* hide scrollbar in Firefox */
+}
+/* @media screen and (max-width: 768px) {
+  .carousel__content { */
+/* scroll-snap-align: start; */
+/* overflow-x: auto; */
+/* }
+} */
+
+/* hide scrollbar in webkit browser */
+.carousel__content::-webkit-scrollbar,
+.carousel__content::-webkit-scrollbar {
+  display: none;
+}
+
+.left-arrow,
+.right-arrow {
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-size: 35px;
+
+  transition: all 300ms ease;
+}
+@media screen and (max-width: 768px) {
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    z-index: 1;
+  }
+  .left-arrow {
+    left: 10px;
+  }
+  .right-arrow {
+    right: 10px;
+  }
+}
+
+.left-arrow_enable,
+.right-arrow_enable {
+  color: #fff;
+  cursor: pointer;
+}
