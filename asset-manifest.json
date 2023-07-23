@@ -1,10 +1,18 @@
 {
   "files": {
     "main.css": "/cojib/static/css/main.3119be79.css",
-    "main.js": "/cojib/static/js/main.becd9ad6.js",
+    "main.js": "/cojib/static/js/main.20ae334b.js",
     "static/media/cojib-image3.jpg": "/cojib/static/media/cojib-image3.13c2ada4689cd8a5d2ad.jpg",
     "static/media/cojib-image2.jpg": "/cojib/static/media/cojib-image2.27e7264c6cbe2ed4a0b9.jpg",
     "static/media/cojib-image.jpg": "/cojib/static/media/cojib-image.8cd28679ee8664281b83.jpg",
+    "static/media/02 model @mess.mess muah @cojib photo @maxcaxap.jpg": "/cojib/static/media/02 model @mess.mess muah @cojib photo @maxcaxap.d81f3ff6ab2a905c16fb.jpg",
+    "static/media/07 model @mess.mess muah @cojib photo @maxcaxap.jpg": "/cojib/static/media/07 model @mess.mess muah @cojib photo @maxcaxap.b1e2f959a4a05754eb0f.jpg",
+    "static/media/08 model @mess.mess muah @cojib photo @maxcaxap.jpg": "/cojib/static/media/08 model @mess.mess muah @cojib photo @maxcaxap.a9c55ac1d00fd17aad69.jpg",
+    "static/media/06 model @mess.mess muah @cojib photo @maxcaxap.jpg": "/cojib/static/media/06 model @mess.mess muah @cojib photo @maxcaxap.82fa5027b133762eaebf.jpg",
+    "static/media/03 model @mess.mess muah @cojib photo @maxcaxap.jpg": "/cojib/static/media/03 model @mess.mess muah @cojib photo @maxcaxap.d8909133477ff3f5e65c.jpg",
+    "static/media/01 model @mess.mess muah @cojib photo @maxcaxap.jpg": "/cojib/static/media/01 model @mess.mess muah @cojib photo @maxcaxap.c6e12b91e3d36d9e6fc7.jpg",
+    "static/media/04 model @mess.mess muah @cojib photo @maxcaxap.jpg": "/cojib/static/media/04 model @mess.mess muah @cojib photo @maxcaxap.d1932c95f5e3e612078f.jpg",
+    "static/media/05 model @mess.mess muah @cojib photo @maxcaxap.jpg": "/cojib/static/media/05 model @mess.mess muah @cojib photo @maxcaxap.1a13e77c3b27e917a488.jpg",
     "static/media/lebel.png": "/cojib/static/media/lebel.b27c7f7328425f7d4366.png",
     "static/media/Wella.png": "/cojib/static/media/Wella.6a467711aa589c20877a.png",
     "static/media/Kydra.png": "/cojib/static/media/Kydra.487d105ab3ebb1a51f43.png",
@@ -26,10 +34,10 @@
     "static/media/help-love.svg": "/cojib/static/media/help-love.962377de6dac584e21832f9ee5ca5190.svg",
     "static/media/list-style-icon.svg": "/cojib/static/media/list-style-icon.5b881add3738b58e54d0.svg",
     "main.3119be79.css.map": "/cojib/static/css/main.3119be79.css.map",
-    "main.becd9ad6.js.map": "/cojib/static/js/main.becd9ad6.js.map"
+    "main.20ae334b.js.map": "/cojib/static/js/main.20ae334b.js.map"
   },
   "entrypoints": [
     "static/css/main.3119be79.css",
-    "static/js/main.becd9ad6.js"
+    "static/js/main.20ae334b.js"
   ]
 }
