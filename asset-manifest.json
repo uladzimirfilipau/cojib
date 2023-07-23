@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cojib/static/css/main.feedb32b.css",
-    "main.js": "/cojib/static/js/main.271f17eb.js",
+    "main.css": "/cojib/static/css/main.3119be79.css",
+    "main.js": "/cojib/static/js/main.becd9ad6.js",
     "static/media/cojib-image3.jpg": "/cojib/static/media/cojib-image3.13c2ada4689cd8a5d2ad.jpg",
     "static/media/cojib-image2.jpg": "/cojib/static/media/cojib-image2.27e7264c6cbe2ed4a0b9.jpg",
     "static/media/cojib-image.jpg": "/cojib/static/media/cojib-image.8cd28679ee8664281b83.jpg",
@@ -25,11 +25,11 @@
     "index.html": "/cojib/index.html",
     "static/media/help-love.svg": "/cojib/static/media/help-love.962377de6dac584e21832f9ee5ca5190.svg",
     "static/media/list-style-icon.svg": "/cojib/static/media/list-style-icon.5b881add3738b58e54d0.svg",
-    "main.feedb32b.css.map": "/cojib/static/css/main.feedb32b.css.map",
-    "main.271f17eb.js.map": "/cojib/static/js/main.271f17eb.js.map"
+    "main.3119be79.css.map": "/cojib/static/css/main.3119be79.css.map",
+    "main.becd9ad6.js.map": "/cojib/static/js/main.becd9ad6.js.map"
   },
   "entrypoints": [
-    "static/css/main.feedb32b.css",
-    "static/js/main.271f17eb.js"
+    "static/css/main.3119be79.css",
+    "static/js/main.becd9ad6.js"
   ]
 }
