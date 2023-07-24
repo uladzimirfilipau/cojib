@@ -15,6 +15,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 @media screen and (max-width: 1024px) {
   .article {
     margin: 0;
@@ -23,6 +24,7 @@
     box-shadow: none;
   }
 }
+
 @media screen and (max-width: 768px) {
   .article {
     padding: 50px 25px;
@@ -99,13 +101,13 @@
 
 .article__list {
   list-style-type: disc;
-  padding: 0 25px;
+  padding-left: 20px;
   box-sizing: border-box;
   margin: 24px 0;
 
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 
   font-weight: 400;
   font-size: 18px;
@@ -115,11 +117,18 @@
 
 .article__item {
   margin: 0;
-  padding-left: 18px;
+  padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .article__item {
-    padding-left: 0;
-  }
+.article__subitem-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+
+  display: grid;
+  gap: 3px;
+}
+
+.article__subitem {
+  margin: 0;
 }
