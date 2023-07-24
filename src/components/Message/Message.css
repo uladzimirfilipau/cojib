@@ -9,14 +9,16 @@
   justify-content: center;
   gap: 30px;
 }
+
 @media screen and (max-width: 1024px) {
   .message {
     padding: 50px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .message {
-    padding: 50px 20px;
+    padding: 50px 30px;
   }
 }
 
