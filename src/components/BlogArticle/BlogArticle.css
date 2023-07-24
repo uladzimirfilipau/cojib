@@ -4,3 +4,17 @@
   font-size: 16px;
   color: #6e6e6e;
 }
+
+.article__list-images {
+  list-style-type: none;
+  margin: 20px 0 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: grid;
+  gap: 10px;
+}
+
+.article__item-image {
+  width: 100%;
+}

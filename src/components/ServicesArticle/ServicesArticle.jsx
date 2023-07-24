@@ -3,9 +3,17 @@ import cojibImage from '../../images/cojib-image.jpg';
 
 export default function ServicesArticle({ i }) {
   const { title, articleText, articleList, articleNote } = i;
-  const articleItems = articleList.map((item, index) => (
-    <li className='article__item' key={index}>
-      {item}
+
+  const articleItems = articleList.map((item) => (
+    <li className='article__item' key={item.id}>
+      {item.text}
+      <ul className='article__subitem-list'>
+        {item.price.map((subitem) => (
+          <li className='article__subitem' key={subitem}>
+            {subitem}
+          </li>
+        ))}
+      </ul>
     </li>
   ));
 

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import { serviceList, blogLinks, socialLinks } from '../../utils/consts';
+import { serviceList, blogLinks, socialLinks, mapLink } from '../../utils/consts';
 import './FooterTop.css';
+import FooterLink from '../FooterLink/FooterLink';
 
 export default function FooterTop() {
   const footerLinks = serviceList.map(({ title, link }) => (
@@ -9,17 +10,13 @@ export default function FooterTop() {
     </Link>
   ));
 
-  const articleLinks = blogLinks.map(({ name, link }) => (
-    <Link key={name} to={link} className='footer__link'>
-      {name}
+  const articleLinks = blogLinks.map(({ title, link }) => (
+    <Link key={title} to={link} className='footer__link'>
+      {title}
     </Link>
   ));
 
-  const listItems = socialLinks.map(({ id, title, link, img }) => (
-    <a key={id} href={link} target='_blank' rel='noopener noreferrer' className='footer__icon-link'>
-      <img src={img} alt={title} className='footer__icon-image' />
-    </a>
-  ));
+  const listItems = socialLinks.map((item) => <FooterLink item={item} key={item.id} />);
 
   return (
     <section className='footer__top'>
@@ -40,7 +37,7 @@ export default function FooterTop() {
         <p className='footer__description-text'>
           Салон красоты&nbsp;
           <a
-            href='https://yandex.ru/maps/org/salon_krasoty_bestlounge/124891032696/?ll=37.454915%2C55.673223&z=15'
+            href={mapLink}
             className='footer__description_link'
             target='_blank'
             rel='noopener noreferrer'
