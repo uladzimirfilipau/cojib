@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cojib/static/css/main.63dec752.css",
-    "main.js": "/cojib/static/js/main.2da279d8.js",
+    "main.js": "/cojib/static/js/main.3b523452.js",
     "static/media/05 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg": "/cojib/static/media/05 MD @katerina_bekker MUAH @cojib PH @maxcaxap.aa2f523d3386ce786e06.jpg",
     "static/media/cojib-image3.jpg": "/cojib/static/media/cojib-image3.13c2ada4689cd8a5d2ad.jpg",
     "static/media/03 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg": "/cojib/static/media/03 MD @katerina_bekker MUAH @cojib PH @maxcaxap.a0b31f7c521ee2f7f985.jpg",
@@ -10,6 +10,7 @@
     "static/media/02 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg": "/cojib/static/media/02 MD @katerina_bekker MUAH @cojib PH @maxcaxap.747ab09bf4c91d1d63f3.jpg",
     "static/media/IMG_8337-FHD MODEL @cojib PHOTO @maxcaxap.jpg": "/cojib/static/media/IMG_8337-FHD MODEL @cojib PHOTO @maxcaxap.2e7995a0206f8a95719c.jpg",
     "static/media/06 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg": "/cojib/static/media/06 MD @katerina_bekker MUAH @cojib PH @maxcaxap.038f2de8566b2586440d.jpg",
+    "static/media/IMG_8372-FHD MODEL @cojib PHOTO @maxcaxap.jpg": "/cojib/static/media/IMG_8372-FHD MODEL @cojib PHOTO @maxcaxap.85cedf8ae6dedbc755e0.jpg",
     "static/media/IMG_0008-FHD MODEL @cojib PHOTO @maxcaxap.jpg": "/cojib/static/media/IMG_0008-FHD MODEL @cojib PHOTO @maxcaxap.8848cf8b2496fcf4d811.jpg",
     "static/media/07 MD @katerina_bekker MUAH @cojib PH @maxcaxap backcover.jpg": "/cojib/static/media/07 MD @katerina_bekker MUAH @cojib PH @maxcaxap backcover.35d837f5fdd06303f30f.jpg",
     "static/media/05 FM-I16-Show1-14 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg": "/cojib/static/media/05 FM-I16-Show1-14 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.9a0b0901e4adf594354c.jpg",
@@ -48,10 +49,10 @@
     "static/media/help-love.svg": "/cojib/static/media/help-love.962377de6dac584e21832f9ee5ca5190.svg",
     "static/media/list-style-icon.svg": "/cojib/static/media/list-style-icon.5b881add3738b58e54d0.svg",
     "main.63dec752.css.map": "/cojib/static/css/main.63dec752.css.map",
-    "main.2da279d8.js.map": "/cojib/static/js/main.2da279d8.js.map"
+    "main.3b523452.js.map": "/cojib/static/js/main.3b523452.js.map"
   },
   "entrypoints": [
     "static/css/main.63dec752.css",
-    "static/js/main.2da279d8.js"
+    "static/js/main.3b523452.js"
   ]
 }
