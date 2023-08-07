@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cojib/static/css/main.f9e0aa8f.css",
-    "main.js": "/cojib/static/js/main.8825dbb3.js",
+    "main.css": "/cojib/static/css/main.52bf5876.css",
+    "main.js": "/cojib/static/js/main.f2170100.js",
     "static/media/05 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg": "/cojib/static/media/05 MD @katerina_bekker MUAH @cojib PH @maxcaxap.aa2f523d3386ce786e06.jpg",
     "static/media/cojib-image3.jpg": "/cojib/static/media/cojib-image3.13c2ada4689cd8a5d2ad.jpg",
     "static/media/03 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg": "/cojib/static/media/03 MD @katerina_bekker MUAH @cojib PH @maxcaxap.a0b31f7c521ee2f7f985.jpg",
@@ -17,6 +17,7 @@
     "static/media/02 FM-I16-Show1-10 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg": "/cojib/static/media/02 FM-I16-Show1-10 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.1a056d7b7a0748303cf3.jpg",
     "static/media/IMG_8372 MODEL @cojib PHOTO @maxcaxap.jpg": "/cojib/static/media/IMG_8372 MODEL @cojib PHOTO @maxcaxap.8f95a25ef19c18c72380.jpg",
     "static/media/03 FM-I16-Show1-12 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg": "/cojib/static/media/03 FM-I16-Show1-12 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.19f7fa95be96b48b6b5d.jpg",
+    "static/media/IMG_0029 MODEL @cojib PHOTO @maxcaxap.jpg": "/cojib/static/media/IMG_0029 MODEL @cojib PHOTO @maxcaxap.ed6b1b1cfdb761e8caae.jpg",
     "static/media/04 FM-I16-Show1-13 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg": "/cojib/static/media/04 FM-I16-Show1-13 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.45fc8758cc56cc68aefd.jpg",
     "static/media/01 FM-I16-Show1-94.jpg": "/cojib/static/media/01 FM-I16-Show1-94.caa0c716fa592d3202b7.jpg",
     "static/media/cojib-image.jpg": "/cojib/static/media/cojib-image.8cd28679ee8664281b83.jpg",
@@ -48,11 +49,11 @@
     "index.html": "/cojib/index.html",
     "static/media/help-love.svg": "/cojib/static/media/help-love.962377de6dac584e21832f9ee5ca5190.svg",
     "static/media/list-style-icon.svg": "/cojib/static/media/list-style-icon.5b881add3738b58e54d0.svg",
-    "main.f9e0aa8f.css.map": "/cojib/static/css/main.f9e0aa8f.css.map",
-    "main.8825dbb3.js.map": "/cojib/static/js/main.8825dbb3.js.map"
+    "main.52bf5876.css.map": "/cojib/static/css/main.52bf5876.css.map",
+    "main.f2170100.js.map": "/cojib/static/js/main.f2170100.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9e0aa8f.css",
-    "static/js/main.8825dbb3.js"
+    "static/css/main.52bf5876.css",
+    "static/js/main.f2170100.js"
   ]
 }
