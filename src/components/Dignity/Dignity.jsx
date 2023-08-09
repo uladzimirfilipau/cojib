@@ -1,5 +1,5 @@
 import './Dignity.css';
-import { dignityList } from '../../utils/consts';
+import { dignityList } from './consts';
 
 export default function Dignity() {
   const listItems = dignityList.map(({ id, title, text }) => (

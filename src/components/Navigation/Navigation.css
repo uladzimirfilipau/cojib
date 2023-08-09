@@ -29,6 +29,7 @@
 
   transition: 300ms ease;
 }
+
 @media screen and (max-width: 768px) {
   .nav__link {
     font-size: 22px;
@@ -38,7 +39,6 @@
 
 .nav__link:hover {
   color: #ff9c08;
-  transform: translate3d(0px, -3px, 0.01px);
 }
 
 .nav__link_active {

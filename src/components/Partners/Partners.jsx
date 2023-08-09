@@ -1,5 +1,5 @@
 import './Partners.css';
-import { partners } from '../../utils/consts';
+import { partners } from './consts';
 
 export default function Partners() {
   const patnersItems = partners.map(({ image, title }) => (

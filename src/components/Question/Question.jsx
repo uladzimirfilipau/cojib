@@ -5,16 +5,6 @@ export default function Question({ item }) {
   const { subtitle, text } = item;
   const [showText, setShowText] = useState(false);
 
-  const [isHovering, setIsHovering] = useState(false);
-
-  const onMouseEnter = () => {
-    setIsHovering(!isHovering);
-  };
-
-  const onMouseLeave = () => {
-    setIsHovering(!isHovering);
-  };
-
   const toggleClick = () => {
     setShowText(!showText);
   };
@@ -24,15 +14,10 @@ export default function Question({ item }) {
     showText && 'questions__button-text_active'
   }`;
 
-  const subtitleClassName = `questions__subtitle ${isHovering && 'questions__subtitle_hover'}`;
+  const subtitleClassName = `questions__subtitle ${showText && 'questions__subtitle_hover'}`;
 
   return (
-    <li
-      className='questions__item'
-      onClick={toggleClick}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
-    >
+    <li className='questions__item' onClick={toggleClick}>
       <button type='button' className={buttonClassName}>
         <span className={buttonTextClassName}>+</span>
       </button>

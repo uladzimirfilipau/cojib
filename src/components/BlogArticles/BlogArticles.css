@@ -11,11 +11,13 @@
   justify-content: center;
   gap: 25px;
 }
+
 @media screen and (max-width: 1024px) {
   .blog__list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media screen and (max-width: 768px) {
   .blog__list {
     grid-template-columns: 1fr;
@@ -41,6 +43,8 @@
 .blog__item-image {
   width: 100px;
   height: 100px;
+  object-fit: cover;
+  object-position: top;
   border-radius: 50%;
   border: 1px solid #f0ece8;
 }

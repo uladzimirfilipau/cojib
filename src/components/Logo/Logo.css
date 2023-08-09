@@ -20,7 +20,6 @@
 
 .logo:hover {
   color: #ff9c08;
-  transform: translate3d(0px, -3px, 0.01px);
 }
 
 .logo_active {

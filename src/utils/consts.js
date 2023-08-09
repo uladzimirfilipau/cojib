@@ -1,11 +1,7 @@
 import houseImage from '../images/help-house.svg';
 import loveImage from '../images/help-love.svg';
 import educationImage from '../images/help-education.svg';
-import healthImage from '../images/help-health.svg';
-
-import cojibImage from '../images/cojib-image.jpg';
-import cojibImage2 from '../images/cojib-image2.jpg';
-import cojibImage3 from '../images/cojib-image3.jpg';
+import hairCare from '../images/cojib/IMG_0008 MODEL @cojib PHOTO @maxcaxap.jpg';
 
 import YULIMESS1 from '../images/ELEGANT Magazine - YULIMESS/01 model @mess.mess muah @cojib photo @maxcaxap.jpg';
 import YULIMESS2 from '../images/ELEGANT Magazine - YULIMESS/02 model @mess.mess muah @cojib photo @maxcaxap.jpg';
@@ -16,18 +12,20 @@ import YULIMESS6 from '../images/ELEGANT Magazine - YULIMESS/06 model @mess.mess
 import YULIMESS7 from '../images/ELEGANT Magazine - YULIMESS/07 model @mess.mess muah @cojib photo @maxcaxap.jpg';
 import YULIMESS8 from '../images/ELEGANT Magazine - YULIMESS/08 model @mess.mess muah @cojib photo @maxcaxap.jpg';
 
-import Davines from '../images/partners/davines.png';
-import Redken from '../images/partners/Redken.png';
-import Revlon from '../images/partners/Revlon.png';
-import Kerastase from '../images/partners/Kerastase.png';
-import Kydra from '../images/partners/Kydra.png';
-import Loreal from '../images/partners/loreal.png';
-import Matrix from '../images/partners/MARTIX.png';
-import Olaplex from '../images/partners/olaplex.png';
-import Kaypro from '../images/partners/Kaypro.png';
-import Lebel from '../images/partners/lebel.png';
-import Wella from '../images/partners/Wella.png';
-import pH from '../images/partners/pH.png';
+import LAYERS1 from '../images/beauNU - LAYERS/01 MD @katerina_bekker MUAH @cojib PH @maxcaxap cover.jpg';
+import LAYERS2 from '../images/beauNU - LAYERS/02 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg';
+import LAYERS3 from '../images/beauNU - LAYERS/03 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg';
+import LAYERS4 from '../images/beauNU - LAYERS/04 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg';
+import LAYERS5 from '../images/beauNU - LAYERS/05 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg';
+import LAYERS6 from '../images/beauNU - LAYERS/06 MD @katerina_bekker MUAH @cojib PH @maxcaxap.jpg';
+import LAYERS7 from '../images/beauNU - LAYERS/07 MD @katerina_bekker MUAH @cojib PH @maxcaxap backcover.jpg';
+
+import birdie1 from '../images/Faddy Magazine - BIRDIE/01 FM-I16-Show1-94.jpg';
+import birdie2 from '../images/Faddy Magazine - BIRDIE/02 FM-I16-Show1-10 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg';
+import birdie3 from '../images/Faddy Magazine - BIRDIE/03 FM-I16-Show1-12 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg';
+import birdie4 from '../images/Faddy Magazine - BIRDIE/04 FM-I16-Show1-13 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg';
+import birdie5 from '../images/Faddy Magazine - BIRDIE/05 FM-I16-Show1-14 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg';
+import birdie6 from '../images/Faddy Magazine - BIRDIE/06 FM-I16-Show1-15 MD @samuraileeyuna MUAH @cojib ASSIST @almi_rami PHOTO @maxcaxap.jpg';
 
 import telegramIcon from '../images/icon-telegram.png';
 import whatsAppIcon from '../images/icon-whatsapp.png';
@@ -41,66 +39,46 @@ export const ONE_SLIDE = 1;
 export const TWO_SLIDES = 2;
 export const FOUR_SLIDES = 4;
 
-export const aboutText = [
-  'Привет! Меня зовут Лилия.',
-
-  `В 2007 году я с отличием окончила Государственный технологический колледж по специальности "Парикмахерское искусство и декоративная косметика" и уже более ${EXP_YEARS} лет работаю парикмахером.`,
-
-  'Ещё со школьных времён я была художником. В прямом смысле этого слова, так как я               закончила художественную школу. Таким образом моя история парикмахера-стилиста началась еще со школьной поры. Мне всегда нравилось творчество и я постоянно экспериментировала с причёсками на себе. Я начала стричь и окрашивать волосы всем своим близким, кто на это соглашался: мама, папа, сестра, подруги и друзья были моими первыми клиентами. Меня всегда привлекало искусство преображения, и когда у меня это стало получаться все лучше и лучше, я поняла, что это именно то, чем хочу заниматься и поступила в колледж.',
-
-  'После окончания колледжа меня пригласили на работу в престижный салон красоты. Здесь я встретила людей с разнообразными запросами и мечтами. Они искали волшебника для обновления своего образа и надежного стилиста, который поможет им в этом.',
-
-  'Сейчас мои дни в салоне проходят в творческой атмосфере. Каждый клиент - это новый вызов для меня. Я внимательно общаюсь с каждым, слушаю пожелания, стремлюсь создать индивидуальный стиль, который подходит человеку и будет гармоничным продолжением его самовыражения. Я работаю с различными типами волос - от прямых до кудрявых, от коротких до длинных, и каждый раз нахожу новый способ выделить их красоту.',
-
-  'Мое мастерство и опыт позволяют мне создавать разнообразные прически - от классических до модных трендов. От свадебных до подиумных ошеломляющих образов. Но колористика и стрижки моя страсть. Чем сложнее задача тем это интереснее для меня. Я люблю работать с каждой прядью волос, создавая уникальные и неповторимые образы.',
-
-  `Но я не останавливаюсь на достигнутом. Я постоянно стремлюсь к развитию в своей профессии. Поэтому я активно посещаю мастер-классы и семинары от известных брендов, таких как Wella, La Biosthetique, L'oreal и других. Курсы и тренинги помогают расширять мои навыки и быть в курсе последних тенденций и инноваций в парикмахерском искусстве. Каждый день я учусь чему-то новому через соцсети, слежу за своими коллегами и вдохновляюсь их работами, знаниями и прогрессом.`,
-
-  'Но знаете, парикмахерское искусство - это не только профессия для меня, это моя страсть, а также мое хобби. Я счастлива, когда вижу улыбки на лицах своих клиентов, когда они довольны результатом моей работы. Для меня каждый клиент - это возможность помочь им стать еще красивее. Я всегда стараюсь сделать все возможное, чтобы мои клиенты почувствовали себя особенными и уверенными в своей красоте.',
-
-  'С радостью приглашаю Вас ко мне в гости! Я готова помочь Вам осуществить мечты об идеальной прическе!',
-];
-
-export const blogLinks = [
-  {
-    title: 'Про стрижки',
-    link: '/pro-cuts',
-    text: 'Здесь можно найти различную информацию про стрижки',
-    image: cojibImage,
-  },
-  {
-    title: 'Про окрашивания',
-    link: '/pro-coloring',
-    text: 'Здесь можно найти различную информацию про окрашивания',
-    image: cojibImage2,
-  },
-  {
-    title: 'Про укладки',
-    link: '/pro-styling',
-    text: 'Здесь можно найти различную информацию про укладки',
-    image: cojibImage3,
-  },
-  {
-    title: 'Про уходы',
-    link: '/pro-haircares',
-    text: 'Здесь можно найти различную информацию про уходы',
-    image: cojibImage2,
-  },
-  {
-    title: 'Про съёмки',
-    link: '/pro-shoots',
-    text: 'Здесь можно найти различную информацию про съёмки',
-    image: cojibImage,
-  },
-];
+// export const blogLinks = [
+//   {
+//     title: 'Про стрижки',
+//     link: '/pro-cuts',
+//     text: 'Здесь можно найти различную информацию про стрижки',
+//     image: cojibImage,
+//   },
+//   {
+//     title: 'Про окрашивания',
+//     link: '/pro-coloring',
+//     text: 'Здесь можно найти различную информацию про окрашивания',
+//     image: cojibImage2,
+//   },
+//   {
+//     title: 'Про укладки',
+//     link: '/pro-styling',
+//     text: 'Здесь можно найти различную информацию про укладки',
+//     image: cojibImage3,
+//   },
+//   {
+//     title: 'Про уходы',
+//     link: '/pro-haircares',
+//     text: 'Здесь можно найти различную информацию про уходы',
+//     image: cojibImage2,
+//   },
+//   {
+//     title: 'Про съёмки',
+//     link: '/pro-shoots',
+//     text: 'Здесь можно найти различную информацию про съёмки',
+//     image: cojibImage,
+//   },
+// ];
 
 export const serviceList = [
   {
     id: 1,
     title: 'Стрижка волос',
     text: '*Укладка волос входит в стоимость',
-    price: 'от 4500Р*',
-    link: '/cut-price',
+    price: 'от 1500Р*',
+    service: 'haircut',
     articleText:
       'Индивидуальная стрижка, при которой учитываю внешность, форму головы, а также структуру, густоту, плотность и направление роста волос. Цель стрижки волос может быть разной: создание нового стиля, обновление прически, устранение поврежденных кончиков волос или поддержание определенной формы стрижки. В стоимость услуги входит базовый уход бренда pH Laboratories или Roverhair.',
     articleList: [
@@ -114,17 +92,27 @@ export const serviceList = [
         text: 'Стрижка с коктейльной укладкой (использование горячих инструментов, начёс):',
         price: ['- короткие 5200Р', '- средние 6400Р', '- длинные 7700Р'],
       },
+      {
+        id: 3,
+        text: 'Детская стрижка (до 10 лет):',
+        price: ['- мальчик 2500Р', '- девочка 3000Р'],
+      },
+      {
+        id: 4,
+        text: 'Стрижка челки 1500Р',
+        price: [],
+      },
     ],
   },
   {
     id: 2,
     title: 'Окрашивание волос',
     text: '*Укладка волос не входит в стоимость',
-    price: 'от 9900Р*',
-    link: '/сolor-price',
+    price: 'от 3500Р*',
+    service: 'haircoloring',
     articleText:
       'Цель окрашивания волос может быть разной: обновление цвета волос, изменение оттенка, создание яркого акцента или полное изменение цвета волос. Окрашивание волос может выполняться различными методами и продуктами, включая красители, тонирующие коктейли или блондирующие средства. В зависимости от желаемого результата и начального состояния волос, выбираю подходящий продукт и метод для вашего окрашивания.',
-    articleNote: '* В стоимость входит тонирование, базовый уход и базовая защита',
+    articleNote: '*В стоимость входит тонирование, базовый уход и базовая защита',
     articleList: [
       {
         id: 1,
@@ -133,7 +121,7 @@ export const serviceList = [
       },
       {
         id: 2,
-        text: 'AirTouch с пропусками/контуринг*:',
+        text: 'AirTouch с пропусками/контуринг, тотал блонд*:',
         price: ['- короткие 12000Р', '- средние 15500Р', '- длинные 18000Р'],
       },
       {
@@ -144,12 +132,27 @@ export const serviceList = [
       {
         id: 4,
         text: 'Окрашивание перманентным красителем тон в тон/цветное окрашивание:',
-        price: ['- корни 0P', '- короткие 0Р', '- средние 0Р', '- длинные 0Р'],
+        price: [
+          '- корни (до 1,5см) 4500P',
+          '- короткие 5000Р',
+          '- средние 6500Р',
+          '- длинные 7500Р',
+        ],
       },
       {
         id: 5,
         text: 'Тонирование волос/растяжка цвета:',
-        price: ['- короткие 0Р', '- средние 0Р', '- длинные 0Р'],
+        price: ['- короткие 3500Р', '- средние 4200Р', '- длинные 5000Р'],
+      },
+      {
+        id: 6,
+        text: 'Декапирование:',
+        price: ['- короткие 3500Р', '- средние 4200Р', '- длинные 5000Р'],
+      },
+      {
+        id: 7,
+        text: 'Фитоламинирование Lebel:',
+        price: ['- короткие 3500Р', '- средние 4500Р', '- длинные 6100Р'],
       },
     ],
   },
@@ -157,11 +160,17 @@ export const serviceList = [
     id: 3,
     title: 'Укладка волос',
     text: '',
-    price: 'от 3300Р',
-    link: '/style-price',
+    price: 'от 1500Р',
+    service: 'hairstyling',
     articleText:
       'Создаю желаемую форму, текстуру и стиль волос с использованием различных инструментов и техник. Цель укладки волос может быть разной: придание объема, создание гладких волн, выпрямление или создание сложных причесок для особых событий.',
+    articleNote: '*Только после глубоких уходов и окрашиваний',
     articleList: [
+      {
+        id: 0,
+        text: 'Сушка волос феном 1500Р*',
+        price: [],
+      },
       {
         id: 1,
         text: 'Дневная укладка волос на брашинг:',
@@ -188,19 +197,19 @@ export const serviceList = [
     id: 4,
     title: 'Уход за волосами',
     text: '*Укладка волос не входит в стоимость',
-    price: 'от 500Р*',
-    link: '/сare-price',
+    price: 'от 1800Р*',
+    service: 'haircare',
     articleText:
       'Подбираю специальные продукты, разработанные для очистки, увлажнения, укрепления и общего ухода за волосами. Эти продукты помогают улучшить состояние волос, обеспечивают им питание и защиту от повреждений.',
     articleList: [
       {
         id: 1,
-        text: 'Маска от 500Р',
+        text: 'Защита при осветлении Olaplex 2500Р',
         price: [],
       },
       {
         id: 2,
-        text: 'Защита при осветлении Ollinplex, Olaplex от 500Р до 2500Р',
+        text: 'Глубокий уход Olaplex 4000Р',
         price: [],
       },
       {
@@ -210,115 +219,36 @@ export const serviceList = [
       },
       {
         id: 4,
-        text: 'Абсолютное счастье для волос Lebel от 4000Р до 5500Р',
+        text: 'Ампульное восстановление Roverhair 1800Р',
         price: [],
+      },
+      {
+        id: 5,
+        text: 'Абсолютное счастье для волос Lebel',
+        price: ['- средние 5000Р', '- длинные 6000Р'],
+      },
+      {
+        id: 6,
+        text: 'Блеск и сила Lebel',
+        price: ['- средние 3000Р', '- длинные 3500Р'],
       },
     ],
   },
-];
-
-export const tableCellsData = [
-  { title: '7000', letter: '+', text: 'Стрижек' },
-  { title: '3000', letter: '+', text: 'Окрашиваний' },
-  { title: '8000', letter: '+', text: 'Укладок' },
-  { title: '2000', letter: '+', text: 'Уходов' },
-];
-
-export const dignityList = [
-  {
-    id: '6',
-    alt: 'Опыт',
-    title: 'Опыт',
-    text: `Более ${EXP_YEARS} лет практики. Глубокое понимание различных типов волос, их структуры и особенностей, а также различных техник стрижки, окрашивания и укладки.`,
-  },
-  {
-    id: '1',
-    alt: 'Индивидуальный подход',
-    title: 'Индивидуальный подход',
-    text: `Слушаю, понимаю и учитываю личные пожелания, чтобы создать прическу или укладку, которая подчеркнет индивидуальность, уверенность и красоту.`,
-  },
-  {
-    id: '2',
-    alt: 'Профессиональные инструменты',
-    title: 'Профессиональные инструменты',
-    text: `Использую профессиональные инструменты, которые помогают мне в достижении высококачественных результатов.`,
-  },
-  {
-    id: '3',
-    alt: 'Профессиональная косметика',
-    title: 'Профессиональная косметика',
-    text: `Использую проверенные мной и временем бренды: pH Laboratories, Roverhair, Lebel`,
-  },
-  {
-    id: '7',
-    alt: 'Комфортная атмосфера',
-    title: 'Комфортная атмосфера',
-    text: `В салоне красоты спокойная и расслабляющая обстановка, приятный интерьер и вежливый персонал.`,
-  },
-  {
-    id: '8',
-    alt: 'Расположение',
-    title: 'Расположение',
-    text: `В 300 метрах от метро Озёрная. Есть парковка`,
-  },
-];
-
-export const cards = [
-  {
-    id: 1,
-    title: 'Лилия Филиппова',
-    img: cojibImage,
-  },
-  {
-    id: 2,
-    title: 'Лилия Филиппова',
-    img: cojibImage3,
-  },
-  {
-    id: 3,
-    title: 'Лилия Филиппова',
-    img: cojibImage2,
-  },
-  {
-    id: 4,
-    title: 'Лилия Филиппова',
-    img: cojibImage,
-  },
-  {
-    id: 5,
-    title: 'Лилия Филиппова',
-    img: cojibImage3,
-  },
-  {
-    id: 6,
-    title: 'Лилия Филиппова',
-    img: cojibImage2,
-  },
-  {
-    id: 7,
-    title: 'Лилия Филиппова',
-    img: cojibImage,
-  },
-  {
-    id: 8,
-    title: 'Лилия Филиппова',
-    img: cojibImage3,
-  },
-];
-
-export const partners = [
-  { title: 'Davines', image: Davines },
-  { title: 'Kaypro', image: Kaypro },
-  { title: 'Kerastase', image: Kerastase },
-  { title: 'Kydra', image: Kydra },
-  { title: 'Lebel', image: Lebel },
-  { title: 'Loreal', image: Loreal },
-  { title: 'Matrix', image: Matrix },
-  { title: 'Olaplex', image: Olaplex },
-  { title: 'pH Laboratories', image: pH },
-  { title: 'Redken', image: Redken },
-  { title: 'Revlon', image: Revlon },
-  { title: 'Wella', image: Wella },
+  // {
+  //   id: 5,
+  //   title: 'Макияж',
+  //   text: '',
+  //   price: 'от 3000Р',
+  //   service: 'makeup',
+  //   articleText: '',
+  //   articleList: [
+  //     {
+  //       id: 1,
+  //       text: '',
+  //       price: [],
+  //     },
+  //   ],
+  // },
 ];
 
 export const articlesList = [
@@ -381,7 +311,7 @@ export const articlesList = [
   },
   {
     id: '4',
-    image: healthImage,
+    image: hairCare,
     title: 'Cредства для ухода за волосами',
     articleText: [
       'Косметика для ухода за волосами - это специальные продукты, разработанные для очистки, увлажнения, укрепления и общего ухода за волосами. Эти продукты содержат различные активные ингредиенты, которые помогают улучшить состояние волос, обеспечить им питание и защиту от повреждений.',
@@ -423,9 +353,9 @@ export const articlesList = [
     category: 'Съёмка',
     articleText: ['Описание съёмки'],
     articleList: [
-      'Фотограф Владимир Филиппов',
       'Стилист, визажист и парикмахер Лилия Филиппова',
       'Фотомодель Юлия Полетаева',
+      'Фотограф Владимир Филиппов',
       'Журнал Elegant Magazine',
     ],
     articleImages: [
@@ -440,33 +370,54 @@ export const articlesList = [
     ],
     link: '/yulimess',
   },
-];
 
-export const ASKED_QUESTIONS = [
   {
-    id: '01',
-    subtitle: 'Как часто нужно стричься?',
-    text: `Частота стрижки зависит от многих факторов, таких как тип волос, длина волос, состояние волос, форма прически и индивидуальные предпочтения. Обычно рекомендуется стричься каждые 3-4 недели, чтобы избежать секущихся кончиков и поддерживать здоровое состояние волос. Однако, если у вас густые или жесткие волосы, то можно стричься реже. А если вы хотите сохранить длину волос, то можно стричься каждые 8-12 недель. В любом случае, лучше всего проконсультироваться со мной, чтобы определить оптимальную частоту стрижки для ваших волос.`,
+    id: '7',
+    image: loveImage,
+    title: 'Съёмка',
+    category: 'Съёмка',
+    articleText: ['Описание съёмки'],
+    articleList: [
+      'Визажист и парикмахер Лилия Филиппова',
+      'Асисстент Анна Петрова',
+      'Фотомодель Катерина Беккер',
+      'Фотограф Владимир Филиппов',
+      'Журнал beauNU Magazine',
+    ],
+    articleImages: [
+      { image: LAYERS1, title: '' },
+      { image: LAYERS2, title: '' },
+      { image: LAYERS3, title: '' },
+      { image: LAYERS4, title: '' },
+      { image: LAYERS5, title: '' },
+      { image: LAYERS6, title: '' },
+      { image: LAYERS7, title: '' },
+    ],
+    link: '/layers',
   },
+
   {
-    id: '02',
-    subtitle: 'Можно ли сделать стрижку, которая будет держаться долго?',
-    text: `Да, можно сделать стрижку, которая будет долго держаться. Для этого необходимо выбрать подходящий стиль и форму стрижки. Также важно правильно ухаживать за волосами, использовать качественные шампуни и кондиционеры, помнить о регулярном мытье головы и расчесывании волос.`,
-  },
-  {
-    id: '03',
-    subtitle: 'Сколько времени занимает стрижка и окрашивание волос?',
-    text: `Время, которое займет стрижка и окрашивание волос, зависит от многих факторов: длины и густоты волос, сложности стрижки или окрашивания. Обычно для стрижки волос требуется от 30 минут до 1 часа, а для окрашивания волос от 1 до 2 часов. Однако, в некоторых случаях время может быть увеличено, если волосы имеют сложную форму, требуют особой техники стрижки или окрашивания.`,
-  },
-  {
-    id: '04',
-    subtitle: 'Как сохранить здоровье волос после стрижки/окрашивания?',
-    text: `Используйте хороший шампунь и кондиционер. Выбирайте средства для ухода за волосами, которые подходят для вашего типа волос и не содержат агрессивных химических веществ. Избегайте слишком сильного нагрева волос. Помните о правильном питании и достаточном количестве воды в организме.`,
-  },
-  {
-    id: '05',
-    subtitle: 'В какую фазу Луны лучше идти в парикмахерскую?',
-    text: `Фазы Луны не имеют прямого отношения к стрижке и окрашиванию волос. Выбор времени для посещения парикмахерской зависит от ваших личных предпочтений и графика работы мастера. Если вы хотите получить новую стрижку или обновить цвет волос, то лучше всего записаться на прием к парикмахеру заранее, чтобы выбрать удобное для вас время и дату;)`,
+    id: '8',
+    image: loveImage,
+    title: 'Съёмка',
+    category: 'Съёмка',
+    articleText: ['Описание съёмки'],
+    articleList: [
+      'Визажист и парикмахер Лилия Филиппова',
+      'Асисстент Альмира Рафикова',
+      'Фотомодель Ли Юн А',
+      'Фотограф Владимир Филиппов',
+      'Журнал FADDY Magazine',
+    ],
+    articleImages: [
+      { image: birdie1, title: '' },
+      { image: birdie2, title: '' },
+      { image: birdie3, title: '' },
+      { image: birdie4, title: '' },
+      { image: birdie5, title: '' },
+      { image: birdie6, title: '' },
+    ],
+    link: '/birdie',
   },
 ];
 

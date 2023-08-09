@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './ServicesListItem.css';
+import './ServicesItem.css';
 
-export default function ServicesListItem({ item }) {
-  const { title, text, price, link } = item;
+export default function ServicesItem({ item }) {
+  const { title, text, price, service } = item;
   const [isHovering, setIsHovering] = useState(false);
 
   const onMouseEnter = () => {
@@ -25,7 +25,7 @@ export default function ServicesListItem({ item }) {
       <p className={textClassName}>{text}</p>
 
       <NavLink
-        to={link}
+        to={service}
         className='services__item-button'
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
