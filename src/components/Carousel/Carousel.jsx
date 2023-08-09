@@ -1,14 +1,8 @@
 import { useEffect, useState } from 'react';
-import {
-  FULL_SCREEN,
-  MEDIUM_SCREEN,
-  ONE_SLIDE,
-  TWO_SLIDES,
-  FOUR_SLIDES,
-  cards,
-} from '../../utils/consts';
+import { FULL_SCREEN, MEDIUM_SCREEN, ONE_SLIDE, TWO_SLIDES, FOUR_SLIDES } from '../../utils/consts';
 import './Carousel.css';
 import { useWindowWidth } from '../../hooks/useWindowSize';
+import { CARDS } from './consts';
 
 export default function Carousel() {
   const width = useWindowWidth();
@@ -63,7 +57,7 @@ export default function Carousel() {
     setTouchPosition(null);
   };
 
-  const listItems = cards.map(({ id, img, title }) => (
+  const listItems = CARDS.map(({ id, img, title }) => (
     <li
       key={id}
       className='carousel__item'

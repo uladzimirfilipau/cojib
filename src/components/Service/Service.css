@@ -5,7 +5,6 @@
   border-width: 1px;
   border-color: #f0ece8;
   border-radius: 12px;
-  background-color: #fff;
   box-shadow: 0 2px 12px 0 rgb(43 43 43 / 6%);
   margin: 50px 0;
   padding: 50px 70px;
@@ -18,7 +17,6 @@
 
 @media screen and (max-width: 1024px) {
   .article {
-    margin: 0;
     padding: 50px;
     border: none;
     box-shadow: none;
@@ -27,7 +25,9 @@
 
 @media screen and (max-width: 768px) {
   .article {
+    margin: 0;
     padding: 50px 25px;
+    border-radius: 0;
   }
 }
 
@@ -45,8 +45,14 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
-  color: #000;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .article__title {
+    font-size: 22px;
+    line-height: 26px;
+  }
 }
 
 .article__links {
@@ -92,7 +98,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  color: #000;
 }
 
 .article__text:last-of-type {
@@ -112,7 +117,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  color: #000;
 }
 
 .article__item {

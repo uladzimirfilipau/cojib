@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import leadImage from '../../images/cojib-image.jpg';
+import leadImage from '../../images/cojib/IMG_8337 MODEL @cojib PHOTO @maxcaxap.jpg';
 import { EXP_YEARS, serviceList } from '../../utils/consts';
 import './Lead.css';
 
 export default function Lead() {
-  const listItems = serviceList.map(({ id, title, link }) => (
+  const listItems = serviceList.map(({ id, title, service }) => (
     <li key={id} className='lead__list-item'>
-      <NavLink to={link} className='lead__link'>
+      <NavLink to={`services/${service}`} className='lead__link'>
         {title}
       </NavLink>
     </li>

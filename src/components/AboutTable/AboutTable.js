@@ -1,5 +1,5 @@
-import { tableCellsData } from '../../utils/consts';
 import './AboutTable.css';
+import { tableCellsData } from './consts';
 
 export default function AboutTable() {
   const tableCells = tableCellsData.map(({ title, letter, text }) => (

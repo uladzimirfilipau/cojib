@@ -1,6 +1,6 @@
 import './Questions.css';
-import { ASKED_QUESTIONS } from '../../utils/consts';
 import Question from '../Question/Question';
+import { ASKED_QUESTIONS } from './consts';
 
 export default function Questions() {
   const questions = ASKED_QUESTIONS.map((item) => <Question key={item.id} item={item} />);

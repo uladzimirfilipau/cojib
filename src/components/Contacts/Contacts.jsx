@@ -1,7 +1,7 @@
 import Message from '../Message/Message';
 import Questions from '../Questions/Questions';
 
-export default function Contact() {
+export default function Contacts() {
   return (
     <>
       <Questions />

@@ -1,28 +1,31 @@
-import { Switch, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './Main.css';
 
 import Home from '../Home/Home';
-import Blog from '../Blog/Blog';
+// import Blog from '../Blog/Blog';
 import Services from '../Services/Services';
-import Contact from '../Contact/Contact';
+import Contacts from '../Contacts/Contacts';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import ScrollUpButton from '../ScrollUpButton/ScrollUpButton';
-
-import { ServiceRoutes } from '../ServiceRoutes/ServiceRoutes';
-import { ArticleRoutes } from '../ArticleRoutes/ArticleRoutes';
+import Service from '../Service/Service';
 
 export default function Main() {
   return (
     <main className='main'>
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/blog' component={Blog} />
-        {ArticleRoutes}
-        <Route path='/services' component={Services} />
-        {ServiceRoutes}
-        <Route path='/contacts' component={Contact} />
-        <Route path='*' component={PageNotFound} />
-      </Switch>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        {/* <Route path='/blog' component={Blog} /> */}
+        {/* {ArticleRoutes} */}
+
+        <Route path='services'>
+          <Route index element={<Services />} />
+          <Route path=':serviceId' element={<Service />} />
+        </Route>
+
+        <Route path='contacts' element={<Contacts />} />
+
+        <Route path='*' element={<PageNotFound />} />
+      </Routes>
       <ScrollUpButton />
     </main>
   );

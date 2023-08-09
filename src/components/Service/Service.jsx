@@ -1,8 +1,13 @@
-import './ServicesArticle.css';
-import cojibImage from '../../images/cojib-image.jpg';
+import { useParams } from 'react-router-dom';
+import './Service.css';
+import { serviceList } from '../../utils/consts';
+// import cojibImage from '../../images/cojib-image.jpg';
 
-export default function ServicesArticle({ i }) {
-  const { title, articleText, articleList, articleNote } = i;
+export default function Service() {
+  let { serviceId } = useParams();
+
+  const item = serviceList.find(({ service }) => service === serviceId);
+  const { articleList, title, articleText, articleNote } = item;
 
   const articleItems = articleList.map((item) => (
     <li className='article__item' key={item.id}>
@@ -19,7 +24,7 @@ export default function ServicesArticle({ i }) {
 
   return (
     <section className='article'>
-      <img src={cojibImage} alt='Лилия Филиппова' className='article__image' />
+      {/* <img src={image} alt={title} className='article__image' /> */}
       <h1 className='article__title'>{title}</h1>
 
       <article className='article__container'>
