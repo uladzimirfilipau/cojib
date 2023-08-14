@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './FooterLink.css';
 
 export default function FooterLink({ item }) {
-  const { id, title, link, img } = item;
+  const { title, link, img } = item;
 
   const [isHovering, setIsHovering] = useState(false);
 
@@ -19,7 +19,6 @@ export default function FooterLink({ item }) {
   return (
     <li>
       <a
-        key={id}
         href={link}
         target='_blank'
         rel='noopener noreferrer'
