@@ -15,3 +15,7 @@
   height: 100vh;
   display: grid;
 }
+
+.modal-open {
+  overflow: hidden;
+}

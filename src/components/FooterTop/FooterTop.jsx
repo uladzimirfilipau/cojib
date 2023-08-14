@@ -10,9 +10,9 @@ export default function FooterTop() {
   //   </Link>
   // ));
 
-  const footerLinks = serviceList.map(({ title, service }) => (
-    <li>
-      <Link key={title} to={`services/${service}`} className='footer__link'>
+  const footerLinks = serviceList.map(({ id, title, service }) => (
+    <li key={id}>
+      <Link to={`services/${service}`} className='footer__link'>
         {title}
       </Link>
     </li>

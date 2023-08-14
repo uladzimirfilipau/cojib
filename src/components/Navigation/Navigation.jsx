@@ -24,7 +24,7 @@ export default function Navigation({ onClose }) {
   return (
     <nav className='nav'>
       {isMobile && (
-        <NavLink exact to='/' className={linkClassName} onClick={onClose}>
+        <NavLink to='/' className={linkClassName} onClick={onClose}>
           Главная
         </NavLink>
       )}
