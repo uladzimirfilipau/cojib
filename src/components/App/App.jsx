@@ -9,8 +9,16 @@ import PopupMenu from '../PopupMenu/PopupMenu';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const handleOpenMenu = () => setIsMenuOpen(true);
-  const handleCloseMenu = () => setIsMenuOpen(false);
+
+  const handleOpenMenu = () => {
+    setIsMenuOpen(true);
+    document.body.classList.add('modal-open');
+  };
+
+  const handleCloseMenu = () => {
+    setIsMenuOpen(false);
+    document.body.classList.remove('modal-open');
+  };
 
   return (
     <>
